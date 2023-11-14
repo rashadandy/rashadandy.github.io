@@ -1,0 +1,360 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'Work_Sans';
+    src: url("work_sans.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Work_Sans';
+    src: url("work_sans.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Work_Sans';
+    src: url("work_sans.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Work_Sans';
+    src: url("work_sans.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+} 
+
+body {
+    background-image: url(imagesoptimized-image.jpg);
+    background-size: cover;
+    font-family: 'work_sans', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.flex-container3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f1dda6;
+    vertical-align: middle;
+}
+
+.nav {
+    flex-direction: column;
+}
+
+.logo {
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    width: 110px;
+    height: auto;
+    float: left;
+    margin-left: 55px;
+    margin-bottom: 15px;
+}
+
+.nav a {
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+
+.nav a:hover {
+    background: white;
+} 
+
+.nav ul {
+    float: right;
+    list-style: none;
+}
+
+.nav ul li {
+    float: right;
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 15px;
+    margin-right: 55px;
+}
+
+.nav ul li a {
+    display: block;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    color: black;
+    font-size: 26px;
+    text-decoration: none;
+    line-height: 80px;
+}
+
+.nav ul li ul {
+    display: none;
+    position: relative;
+}
+
+.nav ul li:hover ul {
+    display: block;
+    position: absolute;
+    background-color: whitesmoke;
+    padding: 0px;
+    border-radius: 0px 0px 9px 9px;
+    margin-left: 0;
+}
+
+.nav ul li ul li {
+    padding: 0px 0px;
+
+}
+
+.nav ul li ul li a {
+    color: #6e3dd5;
+    text-align: center;
+    margin-left: 15%;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+}
+
+.slider_image {
+    width: 100%;
+    height: 100%;
+    background-image: url(images/slideshow.gif);
+    background-repeat: no-repeat;
+}
+
+.flex-container {
+    display:flex;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    clear: both;
+}
+
+.flex-container>div {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    line-height: 20px;
+}
+
+.flex-container1 {
+    font-size: 24px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 120px;
+    padding-right: 110px;
+}
+
+.flex-container2 {
+    display: flex;
+    clear: both;
+}
+
+.flex-container2 a {
+    text-decoration: none;
+}
+
+.flex-container2 > div {
+    padding-left: 100px;
+    padding-right: 90px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+    width: 100%;
+    margin: 20px;
+}
+
+h2 {
+    color: black;
+    font-size: 23px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+
+.pt1 {
+    color: white;
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    background-color: #6e3dd9;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 38%;
+    text-align: center;
+}
+
+.pt3 {
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;   
+    padding-top: 30px;
+}
+
+.pt5 {
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+}
+
+.pt7 {
+    color: #6e3dd9;
+    font-size: 23px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+
+h3 {
+    color: #6e3dd9;
+    font-size: 23px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+
+.pt2 {
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+}
+
+.pt4 {
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+}
+
+.pt6 {
+    color: #6e3dd9;
+    font-size: 23px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;   
+    padding-top: 50px;   
+}
+
+.pt8 {
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;  
+}
+
+.pt10 {
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;  
+    color: #6e3dd9;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.pt12 {
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;  
+    color: #6e3dd9;
+    padding-left: 20px;
+}
+
+.pt14 {
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;  
+    color: #6e3dd9;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.pt16 {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    background-color: #6e3dd9;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 12%;
+    text-align: center;
+}
+
+.flex-container4 {
+    display: flex;
+    clear: both;
+    text-align: center;
+}
+
+
+.flex-container4 > div {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    margin: 20px;
+}
+
+h5 {
+    color: #6e3dd9;
+    font-size: 23px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+}
+
+
+.pt17 {
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+.flex-container5 {
+    display: flex;
+    clear: both;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.flex-container5 > div {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 1px;
+
+}
+
+
+.footer {
+    padding-top: 0px;
+    margin-top: 0%;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 0px;
+    color: black;
+    text-align: center;
+    font-size: 11px;
+}
