@@ -93,6 +93,7 @@ body {
     vertical-align: middle;
     margin-left: 15px;
     margin-right: 55px;
+    z-index: 100 !important;
 }
 
 .nav ul li a {
@@ -117,6 +118,7 @@ body {
     padding: 0px;
     border-radius: 0px 0px 9px 9px;
     margin-left: 0;
+
 }
 
 .nav ul li ul li {
@@ -130,6 +132,8 @@ body {
     margin-left: 15%;
     font-family: 'Work Sans', sans-serif;
     font-weight: 500;
+
+
 }
 
 .slider_image {
