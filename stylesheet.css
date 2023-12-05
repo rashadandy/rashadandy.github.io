@@ -52,6 +52,7 @@ body {
 
 .nav {
     flex-direction: column;
+    margin-right: 40px;
 }
 
 .logo {
@@ -61,7 +62,7 @@ body {
     width: 110px;
     height: auto;
     float: left;
-    margin-left: 55px;
+    margin-left: 100px;
     margin-bottom: 15px;
 }
 
@@ -167,14 +168,34 @@ body {
 }
 
 .flex-container1 {
-    font-size: 24px;
+    display: flex;
+    clear: both;
+    margin-left: 120px;
+    margin-right: 110px;
+    margin-top: 100px;
+}
+
+.flex-container1 > div {9
+    margin-top: 50px;
+    width: 100%;
+    background-color: #6e3dd9;
+}
+
+h1 {
+    font-size: 28px;
     font-family: 'Work Sans', sans-serif;
-    font-weight: 500;
+    font-weight: 700;
     color: white;
+    justify-content: center !important;
     text-align: center;
-    padding-top: 50px;
-    padding-left: 120px;
-    padding-right: 110px;
+    vertical-align: middle;
+    padding-top: 180px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h7 {
+    
 }
 
 .flex-container2 {
@@ -187,8 +208,8 @@ body {
 }
 
 .flex-container2 > div {
-    padding-left: 100px;
-    padding-right: 90px;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-top: 0px;
     padding-bottom: 50px;
     width: 100%;
@@ -196,6 +217,7 @@ body {
 }
 
 h2 {
+    padding-left: 50px;
     color: black;
     font-size: 23px;
     font-family: 'Work Sans', sans-serif;
@@ -208,6 +230,7 @@ h2 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 600;
     background-color: #6e3dd9;
+    margin-left: 50px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 8px;
@@ -217,6 +240,7 @@ h2 {
 }
 
 .pt3 {
+    margin-left: 50px;
     font-size: 18px;
     font-family: 'Work Sans', sans-serif;
     font-weight: 500;   
@@ -227,9 +251,11 @@ h2 {
     font-size: 18px;
     font-family: 'Work Sans', sans-serif;
     font-weight: 500;
+    margin-left: 50px;
 }
 
 .pt7 {
+    margin-left: 50px;
     color: #6e3dd9;
     font-size: 23px;
     font-family: 'Work Sans', sans-serif;
@@ -237,6 +263,7 @@ h2 {
 }
 
 h3 {
+    margin-right: 40px;
     color: #6e3dd9;
     font-size: 23px;
     font-family: 'Work Sans', sans-serif;
@@ -244,6 +271,7 @@ h3 {
 }
 
 .pt2 {
+    margin-right: 40px;
     font-size: 18px;
     font-family: 'Work Sans', sans-serif;
     font-weight: 500;
@@ -264,6 +292,7 @@ h3 {
 }
 
 .pt8 {
+    margin-right: 40px;
     font-size: 18px;
     font-family: 'Work Sans', sans-serif;
     font-weight: 500;  
@@ -385,17 +414,15 @@ h6 {
 .flex-container7 {
     display: flex;
     clear: both;
-    padding-left: 100px;
-    padding-right: 1200px;
-    padding-bottom: 50px;
 }
 
 .flex-container7 > div {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-top: 0px;
-    padding-bottom: 0px;
-    margin: 1px;
+    padding-bottom: 50px;
+    width: 100%;
+    margin: 20px;
 }
 
 input[type=text], select {
@@ -403,6 +430,7 @@ input[type=text], select {
     padding: 12px 20px;
     margin-top: 8px;
     margin-bottom: 20px;
+    margin-left: 30px;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -413,6 +441,7 @@ label {
     font-size: 18px;
     font-family: 'Work Sans', sans-serif;
     font-weight: 500;
+    margin-left: 30px;
 }
 
 input[type=text], textarea {
@@ -423,6 +452,7 @@ input[type=text], textarea {
     padding: 12px 20px;
     margin-top: 8px;
     margin-bottom: 20px;
+    margin-left: 30px;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -438,6 +468,7 @@ input[type=submit] {
     color: white;
     padding: 14px 20px;
     margin-top: 20px;
+    margin-left: 30px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -445,6 +476,60 @@ input[type=submit] {
     
 input[type=submit]:hover {
     background-color: #47278C;
+}
+
+iframe {
+    margin-top: 30px;
+    border-radius: 6px;
+}
+
+.flex-container8 {
+    display: flex;
+    justify-content: center;
+    background-color: #4e2b99;
+}
+
+.nav1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    flex-direction: column;
+}
+
+.nav1 a {
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.nav1 a:hover {
+    background-color: #6e3dd9;
+}
+
+.nav1 ul {
+    list-style: none;
+}
+
+.nav1 ul li {
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.nav1 ul li a {
+    display: block;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+hr.solid {
+    border-top: 3px solid #bbb;
 }
 
 .footer {
